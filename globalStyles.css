@@ -1,0 +1,68 @@
+/*-----IMPORTS CODE-----*/
+@import url('https://fonts.cdnfonts.com/css/web-serveroff');
+/*-----PARALLAX CODE-----*/
+.parallax{
+    background-color: green;
+    background-image: url(/media/images.png);
+    color: whitesmoke;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+/*-------------NAVBAR CODE-------------*/
+.navbar {
+    background-color: #000000;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Web Serveroff', sans-serif;
+}
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.paragraph{
+    color: whitesmoke;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.paragraph2{
+    color: whitesmoke;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 1000px; /*pushes div away from where it's name*/
+}
+.paragraph3{
+    color: whitesmoke;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+    text-align: center;
+    margin-right: 1000px;
+}
+.footer{
+    color: whitesmoke;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px 0; /* Padding top and bottom */
+}
+.footer img {
+    width: 150px; /* Adjust the size as needed */
+}
